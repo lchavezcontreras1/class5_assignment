@@ -1,7 +1,7 @@
 $(document).ready(
     function (){
     $("button").click(greeting);
-});
+    });
 function greeting(e) {
     e.preventDefault();
     let rank = ($("input[name=rank]").val()).data("color");
