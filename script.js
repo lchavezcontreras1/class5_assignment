@@ -7,5 +7,5 @@ function greeting(e){
     let rank = ($("input[name=rank]").val()).data("color");
     let firstName = $("input#firstname").val();
     let lastName= $("input#lastname").val();
-    $("p#greeting").text(`Hello, ${rank} ${firstName} ${lastName}.`);
+    $("span#greeting").text(`Hello, ${rank} ${firstName} ${lastName}.`);
 }
